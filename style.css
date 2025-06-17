@@ -1,0 +1,56 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body); /* A fonte principal já definida */
+}
+
+/* Variáveis de Configuração (Customize Aqui) */
+:root {
+    /* Cores principais */
+    --primary-color: #026773; /* Cor principal do site (pode ser alterada) */
+    --secondary-color: #3CA6A6; /* Cor secundária para hover de links e botões */
+    --text-color: #024959; /* Cor de texto principal */
+    --background-color: #F2E3D5; /* Cor de fundo principal */
+    
+    /* Configuração de fontes */
+    --font-body: "Chocolate Classical Sans", serif; /* Fonte para o corpo do texto */
+    --font-titulo: "Rakkas", serif; /* Fonte para os títulos */
+    
+    /* Configuração de comportamento de hover */
+    --button-hover: #012E40; /* Cor de hover para botões */
+    
+    /* Outros parâmetros podem ser adicionados aqui para facilitar a personalização */
+}
+
+/* Corpo da Página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: var(--font-titulo);
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+/* Outras seções do CSS aqui... */
